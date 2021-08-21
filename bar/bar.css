@@ -1,0 +1,41 @@
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 80px;
+}
+#myBar {
+  width: 1%;
+  height: 30px;
+  background: linear-gradient(to right, #6E5CA2 , #189885);
+  border-radius: 80px;
+}
+#cap {
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#procent {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  padding-top: 1px;
+}
+#value {
+  display: inline-block;
+  font-size: 15px;
+  color: black;
+  padding-left: 20px;
+  padding-top: 1px;
+}
+#capli {
+  padding: 5px;
+  font-size: 20px;
+  text-align: right;
+}
+@media screen and (max-width: 1100px){
+    #capli {
+        padding: 3px;
+        font-size: 15px;
+        text-align: right;
+    }
+}
